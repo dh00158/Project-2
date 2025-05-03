@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: edu.westga.comp4420.users_and_facilities_lists.test.model.facility.TestConstructor
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.195 s <<< FAILURE! - in edu.westga.comp4420.users_and_facilities_lists.test.model.facility.TestConstructor
+testInvalidInput{String, String, String}[3]  Time elapsed: 0.015 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at edu.westga.comp4420.users_and_facilities_lists.test.model.facility.TestConstructor.testInvalidInput(TestFacilityConstructor.java:27)
+
+testInvalidInput{String, String, String}[4]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at edu.westga.comp4420.users_and_facilities_lists.test.model.facility.TestConstructor.testInvalidInput(TestFacilityConstructor.java:27)
+
