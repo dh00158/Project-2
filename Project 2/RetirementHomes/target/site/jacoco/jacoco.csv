@@ -1,7 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-Retirement-Home-App,edu.westga.comp4420.users_and_facilities_lists,Main,27,0,0,0,9,0,3,0,3,0
-Retirement-Home-App,edu.westga.comp4420.users_and_facilities_lists.model,UserAccount,28,55,4,10,5,18,5,7,1,4
-Retirement-Home-App,edu.westga.comp4420.users_and_facilities_lists.model,Facility,18,56,2,10,3,18,3,8,1,4
-Retirement-Home-App,edu.westga.comp4420.users_and_facilities_lists.view.codebehind,NewFacilityWindow,119,0,18,0,28,0,16,0,7,0
-Retirement-Home-App,edu.westga.comp4420.users_and_facilities_lists.view.codebehind,MainWindow,192,0,18,0,49,0,16,0,7,0
-Retirement-Home-App,edu.westga.comp4420.users_and_facilities_lists.view.codebehind,NewUserWindow,119,0,18,0,28,0,16,0,7,0
