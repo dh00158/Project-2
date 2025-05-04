@@ -29,7 +29,7 @@ app.get('/api/download_retirement_home_app', (req, res) => {
 });
 
 //start the web app
-app.listen(80, function () {
+app.listen(8080, function () {
 	console.log('App listening on port 8080!');
 });
 
