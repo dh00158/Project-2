@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { exec } = require('child_process');
 
 console.log('Running setup...');
 
@@ -32,5 +33,17 @@ if (!fs.existsSync(configPath)) {
 } else {
     console.log('config.json already exists.');
 }
+const resourceGroup = 'RH-app-group';
+const appName = 'RetirementHomes';
+
+console.log(`Deploying to Azure App Service "${appName}"...`);
+
+exec(`az webapp up --name ${appName} --resource-group ${resourceGroup} --runtime "NODE|18-lts"`, (err, stdout, stderr) => {
+    if (err) {
+        console.error('Deployment failed:', stderr);
+    } else {
+        console.log('Deployment complete:\n', stdout);
+    }
+});
 
 console.log('Setup completed.');
